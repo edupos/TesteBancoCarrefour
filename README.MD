@@ -3,7 +3,7 @@
 - Endpoint para fazer os lançamentos (assumi que apenas inclusões eram necessárias para manter o histórico dos lançamentos, e inclui um campo de observação para justificar um lançamento corrigindo outro).
 - Endpoint para gerar o relatório (O agrupamento está pode tipo(débito ou crédito), moeda, e mês).
 - Arquitetura DDD
-- Desenho no Draw.IO (No raiz) - Arquivo: CashFlowSolution.drawio
+- Desenho no Draw.IO (No raiz) - Arquivo: CashFlowSolution.jpg
 - EntityFrameworkCore - usando MIgrations
 - Injeção de dependencia
 - Minimum API
