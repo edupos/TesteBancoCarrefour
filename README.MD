@@ -1,4 +1,4 @@
-O que fiz:
+**O que fiz:**
 
 - Endpoint para fazer os lançamentos (assumi que apenas inclusões eram necessárias para manter o histórico dos lançamentos, e inclui um campo de observação para justificar um lançamento corrigindo outro).
 - Endpoint para gerar o relatório (O agrupamento está pode tipo(débito ou crédito), moeda, e mês).
@@ -9,7 +9,7 @@ O que fiz:
 - Minimum API
 - Swagger
 
-O que não fiz:
+**O que não fiz:**
 
 - Embora o documento com o desenho da arquitetura tenha uma arquitetura de microserviços. Eu desenvolvi uma arquitetura monolitica para agiizar o desenvolvimento.
 - Não coloquei a aplicação em container, então por favor rodar no IISExpress.
@@ -18,7 +18,7 @@ O que não fiz:
 - Não utilizei um padrão de notificação e nem criei logs.
 - Não fiz autenticação.
 
-Como rodar:
+**Como rodar:**
 
 - Atualizar o appsettings.config (com a string de conexão
 - Rodar o comando:  dotnet ef database update --project CashFlow.Repository
@@ -26,7 +26,7 @@ Como rodar:
 - Testar a API no SWAGGER
 
 
-Enums para teste:
+**Enums para teste:**
 
     public enum EnumOperationCurrency
     {
@@ -41,11 +41,11 @@ Enums para teste:
         Debit = 1
     }
 
-Exemplo de chamadas a API via swagger:
+**Exemplo de chamadas a API via swagger:**
 
-/PostingEntry
+***/PostingEntry***
 
-Request:
+_Request:_
 
 {
   "operationType": 0,
@@ -55,16 +55,16 @@ Request:
   "observation": "Feito para testar"
 }
 
-Response :
+_Response:_
 	200 OK
 
-/MonthlyConsolidateReport
+***/MonthlyConsolidateReport***
 
-Request:
+_Request:_
 
 Vazio
 
-Response: 
+_Response:_ 
 
 [
   {
