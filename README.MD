@@ -20,7 +20,7 @@
 
 **Como rodar:**
 
-- Atualizar o appsettings.config (com a string de conexão
+- Atualizar o appsettings.config (com a string de conexão (CashFlowConnectionString) que vão utilizar, base SQL SERVER.)
 - Rodar o comando:  dotnet ef database update --project CashFlow.Repository
 - Executar o Visual Studio no IISExpress
 - Testar a API no SWAGGER
